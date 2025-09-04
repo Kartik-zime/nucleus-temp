@@ -1,11 +1,10 @@
-// Trigger redeploy for GitHub Pages
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/zime-nucleus/',
+  base: '/nucleus-temp/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
